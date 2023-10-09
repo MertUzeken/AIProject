@@ -13,7 +13,7 @@ class comai:
     def __init__(self):
         #Define args
         persist_directory= "db" 
-        os.environ["OPENAI_API_KEY"] = ("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")
+        os.environ["OPENAI_API_KEY"] = ("")
         self.chat_history = []
 
 
