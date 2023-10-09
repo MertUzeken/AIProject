@@ -1,27 +1,27 @@
-# comai
+## comai
+ComAI is a split stack web application build to support users with answers to any kind of question in regards to their workfield.
+It so far has two AI Modes build in with one being connected to the OpenAI API and the other one using GPT4All locally.
+
+Data can be provided via Sharepoint and is being ingested into the local vector DB.
+After that the frontend provides a chat like enviroment for the user to ask questions in a FAQ / QA type conversation.
+
+It can be deployed via Docker on a server / local server or even run on a desktop PC.
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Compiles and hot-reloads for development
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+## Run server.sh
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+To run the server open the terminal and navigate to the folder.
+Inside run run_server.sh by typing ./run_server.sh
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Before running, make sure to do the following steps first:
 ### 0. Install node.js and then npm if not already done. 
@@ -29,10 +29,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### 0.2 Inside terminal, navigate to the project folder and run npm install to download dependencies for the frontend.
 
 ### Auto Installation
-###      |
-###      |
-###      V
-
 
 ### You can now use the run_server.sh bashfile to automatically setup, start front and backend for you.
 ### Open a bash shell, navigate to the project folder, type in --> ./run_server.sh
@@ -44,9 +40,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ### Manual Installation 
-###         |
-###         |
-###         V
 
 ### 1. Delete any db folder inside comai root folder. (ingestion is going to create a fresh one)
 ### 2. Run SetupGUI version of the setup, hit save and let it proceed.
@@ -58,8 +51,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 4. Run server.py to start the backend
 ### 5. Open console, navigate to the root of comai and run >>  npm run serve (for dev build) to start the frontend
-
-
 
 
 ### Additional infos:
