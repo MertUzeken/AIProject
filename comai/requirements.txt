@@ -1,0 +1,8 @@
+chromadb==0.3.29
+Flask==2.3.2
+Flask_Cors==4.0.0
+langchain==0.0.292
+Office365_REST_Python_Client==2.4.1
+pandas==1.5.3
+PyPDF2==3.0.1
+tqdm==4.65.0
