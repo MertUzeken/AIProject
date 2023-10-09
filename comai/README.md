@@ -1,3 +1,5 @@
+![ScreenShot](https://github.com/MertUzeken/AIProject/blob/main/comai/Frontend.png)
+
 ## comai
 ComAI is a split stack web application build to support users with answers to any kind of question in regards to their workfield.
 It so far has two AI Modes build in with one being connected to the OpenAI API and the other one using GPT4All locally.
